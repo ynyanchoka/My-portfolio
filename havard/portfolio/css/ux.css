@@ -1,0 +1,135 @@
+
+  *{
+    font-family: 'Poppins', sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+  
+  .nav-item{
+    padding: 15px 20px;
+  }
+  .img-responsive2{
+    padding-left: 10px;
+  }
+  .nav-link:hover {
+    border-bottom: 3px solid #A26F4C;
+}
+.navbar{
+  background-color: #F0EEE7;
+
+}
+
+
+
+
+
+  .main-title{
+    color: #2d2d2d;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0.7em 0;
+  }
+  
+  .container{
+    padding: 1em 0;
+    /* float: left; */
+    width: 100%;
+  }
+  /* @media screen and (max-width: 640px){
+    .container{
+      display: block;
+      width: 100%;
+    }
+  } */
+  
+  /* @media screen and (min-width: 900px){
+    .container{
+      width: 33.33333%;
+    }
+  } */
+  
+  .container .title{
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .content .content-overlay {
+    background: rgba(162, 111, 76);
+    /* background-color: #A26F4C; */
+    background-color: #F0EEE7;
+    opacity: 0.2;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  
+  .content:hover .content-overlay{
+    opacity: 1;
+  }
+  
+  .content-image{
+    width: 100%;
+  }
+  
+  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+  
+  .content-details h3{
+    color: #A26F4C;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+  
+  .content-details p{
+    color: #A26F4C;
+    font-size: 0.8em;
+  }
+  
+  .fadeIn-bottom{
+    top: 80%;
+  }
+  
+  
