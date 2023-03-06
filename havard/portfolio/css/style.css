@@ -1,16 +1,15 @@
 
-  *{
-    font-family: 'Poppins', sans-serif;
-}
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Poppins", sans-serif;
+  font-family: 'Nunito', sans-serif;
+
 }
   
   .nav-item{
     padding: 15px 20px;
+    
   }
   .img-responsive2{
     padding-left: 10px;
@@ -19,9 +18,10 @@
     border-bottom: 3px solid #A26F4C;
 }
 .navbar{
-  background-color: #F0EEE7;
-
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  
 }
+
 
 
 
@@ -30,8 +30,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 90vh;
+  min-height: 100vh;
+  /* background-image: url("../images/DSC_0071\ 3.png");
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 400px;
+  background-attachment: fixed; */
+
 }
+
 .waviy {
   position: relative;
   font-family:"Poppins", sans-serif ;
@@ -41,8 +49,8 @@
 .waviy span {
   position: relative;
   display: inline-block;
-  font-size: 40px;
-  color: #A26F4C;
+  font-size: 90px;
+  color: black;
   text-transform: uppercase;
   animation: flip 2s infinite;
   animation-delay: calc(.2s * var(--i))
@@ -79,13 +87,9 @@
   font-family: 'Playfair Display', serif;
   font-weight: 200;
   text-align: center;
-  padding-top: 40px;
+  margin-top: 100px;
 }
-.btn{
-  background-color: #A26F4C;
-  color: aliceblue;
-  border-radius: 15px;
-}
+
 .email{
   text-align: center;
   padding-bottom: 50px;
@@ -102,5 +106,55 @@
 }
 .col-md-3 h6{
   font-weight: lighter!important;
+  color: black;
+  
+}
+a:link {
+  text-decoration: none;
+}
+
+input[type=email],
+input[type=text] {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #A26F4C;
+  box-sizing: border-box;
+  outline: none;
+  margin-top: 70px;
+}
+form{
+width: 70%;
+}
+input[type=email]:required,
+input[type=text]:required {
+  box-shadow: none;
+  outline: none;
+}
+[type=submit] {
+  background: #A26F4C;
+  border: none;
+  color: #fff;
+  margin-top: 60px;
+  padding: 10px 50px;
+  border-radius: 20px;
+}
+[type=button]{
+  background: #A26F4C;
+  border: none;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 50px;
+
+}
+
+[type=submit]:hover,
+[type=submit]:focus {
+  background: #c79e85;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  border-radius: 15px;
+  animation: none;
+  
 }
 

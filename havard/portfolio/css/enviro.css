@@ -1,0 +1,152 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+
+}
+.nav-item{
+    padding: 15px 20px;
+    
+  }
+  .img-responsive2{
+    padding-left: 10px;
+  }
+  .nav-link:hover {
+    border-bottom: 3px solid #A26F4C;
+}
+.navbar{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.bg-img {
+    background-image: url(../images/geran-de-klerk-qzgN45hseN0-unsplash.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 300px;
+    background-attachment: fixed;
+  }
+  #intro{
+    color: aliceblue;
+    text-align: center;
+    font-size: 110px; 
+    padding-top: 10%;
+  }
+  #tagline{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+
+  }
+  .overview{
+    margin-top: 40px;
+    margin: 50px;
+  }
+  /* .overview p{
+    color: #6d5c5c;
+   
+  } */
+  .notebook img{
+    display: block;
+    margin-top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container.design{
+    margin-left: 55px;
+    margin-right: 55px;
+  }
+  /* .container.design p{
+    color: #6d5c5c;
+  } */
+
+
+
+.persona .column {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+  }
+
+  
+
+  .persona {
+    margin: 0 -5px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+  
+  /* Clear floats after the columns */
+  .persona:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .persona .card {
+    padding: 16px;
+    text-align: left;
+    transition: 0.3s;
+    height: 300px; 
+    border-color: #09aa1e;
+  
+  }
+  .column{
+    margin-bottom: 20px;
+  }
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+ .body{
+    padding: 30px;
+  }
+  .card-img-left{
+    border-radius: 10px;
+  }
+  .wireframe{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .wireframe .card{
+    border-color: #09aa1e;
+  }
+  .wireframe h4{
+    text-align: center;
+    padding: 20px;
+  }
+  .findings .col-md-4{
+    text-align: center;
+  }
+  .typography{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .bold{
+    font-weight: bolder;
+  }
+  .semibold{
+    font-weight: bold;
+  }
+  .medium{
+    font-weight: 400;
+  }
+  .regular{
+    font-weight: lighter;
+  }
+  .card-deck{
+    display: flex;
+  }
+  .card .rectangle {
+    height: 90px;
+    width: 100%;
+  }
